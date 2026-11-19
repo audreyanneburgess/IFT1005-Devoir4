@@ -67,3 +67,15 @@ nav a {
     height: 100%;
     background-color: rgb(35, 24, 20);
 }
+
+h3 {
+    background-color: #D2B48C;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    padding-left: 40px;
+}
+
+.content_month {
+    display: inline;
+    text-align: left;
+}
