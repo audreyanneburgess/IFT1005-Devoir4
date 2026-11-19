@@ -1,20 +1,18 @@
 body {
-    background-color: #FCEBB6;
+    background-color: rgb(255, 246, 194);
     font-family: Verdana, Arial, sans-serif;
-    background-image: url("/ressources/background.gif");
-}
-
-#wrapper {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    background-image: url("/ressources4/background.gif");
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 header {
     background-color: #D2B48C;
-    text-align: center;
-    display: inline;
-    float: left;
+    text-align: left;
+    padding: 30px;
+    font-size: larger;
 }
 
 footer {
@@ -22,30 +20,50 @@ footer {
     text-align: center;
     font-style: italic;
     font-size: small;
+    border-top: 1px solid black;
 }
 
 nav {
     font-weight: bold;
-    font-size: larger;
-    float: left;
+    font-size: 18pt;
+    text-align: center;
+    width: 240px;
+    height: 100vh;
+    background-color: rgb(35, 24, 20);
+    padding: 10px;
 }
 
-img {
-    float: right;
-    margin-top: 30px;
+main {
+    background-color: rgb(255, 246, 194);
+    margin: 30px;
 }
-
 
 nav ul {
     list-style-type: none;
-    list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
+    background-color: rgb(35, 24, 20);
 }
 
 nav a {
     text-decoration: none;
-    padding-right: 10px;
+    color: rgb(255, 246, 194);
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    flex: 0 0 80%;
+    background-color: rgb(255, 246, 194);
+}
+
+.menu {
+    flex: 0 0 20%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(35, 24, 20);
 }
